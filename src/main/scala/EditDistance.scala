@@ -2,7 +2,7 @@ package com.logesh.feelers
 
 import scala.collection.mutable.ListBuffer
 
-class EditDistance(private val target:String,private val source:String) {
+class EditDistance(private val target:String,private val source:String) extends Serializable {
 
   private var transcript = ListBuffer[Char]()
 
